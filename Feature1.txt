@@ -1,0 +1,24 @@
+Void StartEngine()
+{
+	EngineBool=True;
+	MotorCarro=GameObject.GetComponent<CodigoDeMotor>()
+	MotorCarro.Encender();
+	SonidoMotor();
+}
+
+Void SonidoMotor(AudioClip ClipMotor)
+{
+	AudioSource AudioSys=MotorCarro.GetComponent<AudioSource>();
+	AudioSys.Clip(ClipMotor);
+	AudioSys.Play();
+
+	If (AudioSys.isPlaying)
+		EngineBool=True;
+	Else Return;
+}
+
+Void StopEngine()
+{
+	EngineBool=False;
+	MotorCarro.Apagar();
+}
