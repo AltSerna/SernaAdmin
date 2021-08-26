@@ -6,3 +6,9 @@ Void AcabarSemestre()
 	}
 	Else Return;
 }
+
+Void CancelarSemestre()
+{
+	GanasDeVivir=True;
+	GanasDeEstudiar=False;
+}
