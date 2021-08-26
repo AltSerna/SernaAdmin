@@ -12,3 +12,9 @@ Void CancelarSemestre()
 	GanasDeVivir=True;
 	GanasDeEstudiar=False;
 }
+
+Void Start()
+{
+	AcabarSemestre();
+	CancelarSemestre();
+}
