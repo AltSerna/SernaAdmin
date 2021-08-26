@@ -15,5 +15,10 @@ Void SonidoMotor(AudioClip ClipMotor)
 	If (AudioSys.isPlaying)
 		EngineBool=True;
 	Else Return;
-	
+}
+
+Void StopEngine()
+{
+	EngineBool=False;
+	MotorCarro.Apagar();
 }
