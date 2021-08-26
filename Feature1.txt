@@ -1,0 +1,5 @@
+Void StartEngine()
+{
+	MotorCarro=GameObject.GetComponent<CodigoDeMotor>()
+	MotorCarro.Encender();
+}
