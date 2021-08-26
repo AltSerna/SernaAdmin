@@ -1,0 +1,20 @@
+Void AcabarSemestre()
+{
+	If (GanasDeVivir==GanasDeEstudiar)
+	{
+		Semestre.Enable(GanasDeVivir)
+	}
+	Else Return;
+}
+
+Void CancelarSemestre()
+{
+	GanasDeVivir=True;
+	GanasDeEstudiar=False;
+}
+
+Void Start()
+{
+	AcabarSemestre();
+	CancelarSemestre();
+}
