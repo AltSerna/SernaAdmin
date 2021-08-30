@@ -9,6 +9,7 @@ Void StartEngine()
 
 Void SonidoMotor(AudioClip ClipMotor)
 {
+	ARREGLOS 2
 	AudioSource AudioSys=MotorCarro.GetComponent<AudioSource>();
 	AudioSys.Clip(ClipMotor);
 	AudioSys.Play();
