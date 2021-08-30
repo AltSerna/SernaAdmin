@@ -1,5 +1,6 @@
 Void AcabarSemestre()
 {
+	Arreglos
 	If (GanasDeVivir==GanasDeEstudiar)
 	{
 		Semestre.Enable(GanasDeVivir)
@@ -9,12 +10,14 @@ Void AcabarSemestre()
 
 Void CancelarSemestre()
 {
+	Arreglos
 	GanasDeVivir=True;
 	GanasDeEstudiar=False;
 }
 
 Void Start()
 {
+	Arreglos
 	AcabarSemestre();
 	CancelarSemestre();
 }
