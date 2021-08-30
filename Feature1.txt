@@ -1,5 +1,6 @@
 Void StartEngine()
 {
+	ARREGLOS 1
 	EngineBool=True;
 	MotorCarro=GameObject.GetComponent<CodigoDeMotor>()
 	MotorCarro.Encender();
