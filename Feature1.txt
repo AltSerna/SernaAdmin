@@ -1,5 +1,6 @@
 Void StartEngine()
 {
+	ARREGLOS 1
 	EngineBool=True;
 	MotorCarro=GameObject.GetComponent<CodigoDeMotor>()
 	MotorCarro.Encender();
@@ -8,6 +9,7 @@ Void StartEngine()
 
 Void SonidoMotor(AudioClip ClipMotor)
 {
+	ARREGLOS 2
 	AudioSource AudioSys=MotorCarro.GetComponent<AudioSource>();
 	AudioSys.Clip(ClipMotor);
 	AudioSys.Play();
@@ -19,6 +21,7 @@ Void SonidoMotor(AudioClip ClipMotor)
 
 Void StopEngine()
 {
+	ARREGLOS 3
 	EngineBool=False;
 	MotorCarro.Apagar();
 }
