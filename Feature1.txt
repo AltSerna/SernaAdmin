@@ -21,6 +21,7 @@ Void SonidoMotor(AudioClip ClipMotor)
 
 Void StopEngine()
 {
+	ARREGLOS 3
 	EngineBool=False;
 	MotorCarro.Apagar();
 }
