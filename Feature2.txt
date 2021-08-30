@@ -10,13 +10,14 @@ Void AcabarSemestre()
 
 Void CancelarSemestre()
 {
-Arreglos
+	Arreglos
 	GanasDeVivir=True;
 	GanasDeEstudiar=False;
 }
 
 Void Start()
 {
+	Arreglos
 	AcabarSemestre();
 	CancelarSemestre();
 }
